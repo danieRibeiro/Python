@@ -1,6 +1,6 @@
 import os
 
-arquivo = ''
+arquivo = ' '
 
 while True:
     print(f"{'-' * 10} BUSCADOR {'-' * 10}")
