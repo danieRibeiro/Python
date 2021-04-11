@@ -1,4 +1,5 @@
 import os
+import filtro_string
 
 arquivo = ''
 
@@ -52,7 +53,7 @@ while True:
 
                         if 'S' in abrir:
                             abrir_arquivo = str(input('Diretório do arquivo: ')).strip()
-                            os.system('xdg-open ' + abrir_arquivo)
+                            filtro_string.filtracao_string(abrir_arquivo)
 
                         elif 'N' in abrir:
                             while True:
